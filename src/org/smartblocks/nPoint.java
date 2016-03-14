@@ -1,4 +1,4 @@
-
+package org.smartblocks;
 
 public class nPoint {
   public int x, y;

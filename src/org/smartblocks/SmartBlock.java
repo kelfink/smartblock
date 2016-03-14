@@ -1,9 +1,9 @@
+package org.smartblocks;
+
 import java.util.Random;
 import java.awt.Graphics;
 import java.awt.*;
-import Point;
-import Universe;
-import System.*;
+
 public class SmartBlock extends Thread {
   static int GENES = 128;
   static int DNA[] ;

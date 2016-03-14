@@ -1,8 +1,7 @@
-import SmartBlock;
-import Universe;
+package org.smartblocks;
+
 import java.awt.*;
-//import borland.jbcl.layout.*;
-//import java.awt.event.*;
+import java.awt.event.*;
 
 public class Ex2 extends java.applet.Applet implements Runnable {
   static Graphics dbuffer;
@@ -86,7 +85,7 @@ public class Ex2 extends java.applet.Applet implements Runnable {
       Prepare permanent elements of the "laboratory"
   */
   public void init () {
-     AppBorder = bounds();
+     AppBorder = getBounds();
 //     XRES = 400;
 //     YRES = 400;
 

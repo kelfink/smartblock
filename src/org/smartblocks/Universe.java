@@ -1,4 +1,5 @@
-import nPoint;
+package org.smartblocks;
+
 //import java.awt.*;
 import java.awt.Graphics;
 import java.awt.Image;

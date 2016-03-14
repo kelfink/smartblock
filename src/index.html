@@ -1,0 +1,50 @@
+<html><head>
+
+
+
+   <meta name="Author" content="Kevin Fries">
+   <title>Example 1 --- Simple SmartBlock Demo</title>
+</head>
+<body>
+
+
+This example shows a short demo.&nbsp;
+The creature is larger (8 blocks), the genetic code is short, the lifespan is longer (150),
+and the applet moves more quickly.  .&nbsp; 16 generatoins of 16 trials each will
+be run.
+<p>
+<a href="smartblocks.jar"> the JAR </a>
+<applet code='org.smartblocks.Ex2'
+         archive='smartblocks.jar'
+           width="600" height="400" align="TOP">
+  <param name="blocksize" value="3">
+  <param name="blocks" value="8">
+  <param name="lifespan" value="150">
+  <param name="dna_length" value="8">
+  <param name="trials" value="16">
+  <param name="generations" value="16">
+  <param name="sleep" value="8">
+</applet>
+
+
+</p><p>
+Look for the small wiggling creature in the left hand corner.
+
+Press BEGIN to start the experiment.
+The creature will begin moving according to an initial set of instructions.
+After a period of time (determined by parameters passed to the applet) the creature will
+be terminated, and a new trial will begin, with a slight mutation of the original.
+</p><p>
+32 such trials will be conducted, and of these, the best performer will be picked to
+reproduce.  That new instruction set will be mutates 32 times, in 32 trials, 
+and the procerss repeats.
+</p><p> </p><p>
+To see details of the generation, refer to your web browser's Java Console.
+
+
+
+
+
+
+
+</p></body></html>

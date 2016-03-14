@@ -5,3 +5,7 @@ Dredged up from archive.org's depths, my CSU Chico Artificial Intelligence surve
 I originally wanted to mae this into a platform for building and solving arbitrary puzzles.  
 
 The project was originally a Java applet.  That might change.
+
+This should all run in a browser, but it doesn't.  In the mean time, this works OK:
+
+  appletviewer index.html
